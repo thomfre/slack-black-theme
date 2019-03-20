@@ -813,6 +813,9 @@ ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-messa
 button.c-button-unstyled.p-message_input_plus {
     background-color: var(--background-hover);
 }
+.p-message_input_file_button {
+  background-color: var(--background);
+}
 .p-threads_flexpane__separator_count {
     margin-right: 12px;
     color: var(--text);
@@ -1280,7 +1283,6 @@ ts-jumper ts-jumper-container {
 }
 .c-icon {
     color: var(--text);
-    background: var(--background);
 }
 /* sidebar in general */
 .p-flexpane_header {
@@ -1394,7 +1396,7 @@ ts-jumper ts-jumper-container {
 	color: var(--text);
 }
 .c-pillow_file__email__meta__field {
-  color: var(--text-bright);
+  color: var(--text-bright) !important;
 }
 /* file drafts */
 ts-rocket, ts-rocket.post_body {
