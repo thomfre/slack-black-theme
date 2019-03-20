@@ -30,6 +30,7 @@ limitations under the License.
    --border-bright: var(--primary);
 
    --text-bright: #aaa;
+   --text-dim: #888;
    --text-special: var(--primary);
 
    --scrollbar-background: #000;
@@ -271,7 +272,7 @@ li.active[class] span,
    /*inverted because important*/
    background-color: var(--border-bright) !important;
    border-color: var(--text-bright);
-   color: var(--text);
+   color: var(--text-bright);
 }
 
 /*also add border to unread count for individual channels*/
@@ -1666,7 +1667,7 @@ ts-jumper .p-jumper__help {
 }
 /* message dialogs */
 .c-message__sender {
-    color: var(--text);
+    color: var(--text-dim);
 }
 .c-message--standalone {
     border: 1px solid var(--border-dim);
