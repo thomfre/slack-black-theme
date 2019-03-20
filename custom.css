@@ -17,7 +17,7 @@ limitations under the License.
 :root {
    /* Modify these to change your theme colors: */
    --primary: #0099ff;
-   --text: #888;
+   --text: #aaa;
    --background: #111;
    --background-elevated: #222;
 
@@ -34,6 +34,19 @@ limitations under the License.
 
    --scrollbar-background: #000;
    --scrollbar-border: var(--primary);
+
+   --yellow: #fc0;
+   --green: #98C379;
+   --cyan: #56B6C2;
+   --blue: #61AFEF;
+   --purple: #C678DD;
+   --red: #E06C75;
+   --red2: #BE5046;
+   --orange: #D19A66;
+   --orange2: #E5707B;
+   --gray: #3E4451;
+   --silver: #9da5b4;
+   --black: #21252b;
 }
 
 h1, h2, h3, h4 {
@@ -1369,6 +1382,8 @@ ts-jumper ts-jumper-container {
 .c-pillow_file__icon--slide:after {
     color: var(--background);
     border-color: var(--text);
+    border-radius: 2px;
+    padding: 6px;
 }
 .c-pillow_file__content--collapsed:after {
     background: linear-gradient(0deg,var(--background),hsla(0,0%,100%,0) 40px);
