@@ -814,7 +814,7 @@ button.c-button-unstyled.p-message_input_plus {
     background-color: var(--background-hover);
 }
 .p-message_input_file_button {
-  background-color: var(--background);
+  background-color: var(--background) !important;
 }
 .p-threads_flexpane__separator_count {
     margin-right: 12px;
@@ -1575,6 +1575,10 @@ nav {
 .c-reaction {
     background: var(--background);
     border: 1px solid var(--border-dim); 	
+}
+.c-reaction--reacted {
+  border: none;
+  box-shadow: inset 0 0 0 1px #1d9bd1;
 }
 .c-reaction--reacted:hover {
     background: var(--background-elevated);
