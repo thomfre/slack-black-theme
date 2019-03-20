@@ -1280,6 +1280,7 @@ ts-jumper ts-jumper-container {
 }
 .c-icon {
     color: var(--text);
+    background: var(--background);
 }
 /* sidebar in general */
 .p-flexpane_header {
@@ -1391,6 +1392,9 @@ ts-jumper ts-jumper-container {
 }
 .c-pillow_file__snippet__content .CodeMirror-code>div:before {
 	color: var(--text);
+}
+.c-pillow_file__email__meta__field {
+  color: var(--text-bright);
 }
 /* file drafts */
 ts-rocket, ts-rocket.post_body {
