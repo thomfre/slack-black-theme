@@ -16,7 +16,7 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #09F;
+   --primary: #0099ff;
    --text: #888;
    --background: #111;
    --background-elevated: #222;
@@ -1368,7 +1368,7 @@ ts-jumper ts-jumper-container {
 }
 .c-pillow_file__icon--slide:after {
     color: var(--background);
-    border-color: var(--background);
+    border-color: var(--text);
 }
 .c-pillow_file__content--collapsed:after {
     background: linear-gradient(0deg,var(--background),hsla(0,0%,100%,0) 40px);
