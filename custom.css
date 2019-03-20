@@ -17,7 +17,7 @@ limitations under the License.
 :root {
    /* Modify these to change your theme colors: */
    --primary: #0099ff;
-   --text: #ccc;
+   --text: #ddd;
    --background: #111;
    --background-elevated: #222;
 
@@ -29,7 +29,7 @@ limitations under the License.
    --border-dim: #666;
    --border-bright: var(--primary);
 
-   --text-bright: #aaa;
+   --text-bright: #fff;
    --text-dim: #888;
    --text-special: var(--primary);
 
@@ -815,7 +815,7 @@ button.c-button-unstyled.p-message_input_plus {
     background-color: var(--background-hover);
 }
 .p-message_input_file_button {
-  background-color: var(--background) !important;
+  background-color: var(--background-elevated) !important;
 }
 .p-threads_flexpane__separator_count {
     margin-right: 12px;
