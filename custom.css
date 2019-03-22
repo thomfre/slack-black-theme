@@ -778,6 +778,10 @@ ts-mention.ts_tip:hover
   background: var(--background) !important;
 }
 
+.c-message_kit__thread_message {
+  background: var(--background) !important; 
+}
+
 /* threads */
 ts-message .reply_bar:hover {
   background: var(--background) !important;
