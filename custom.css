@@ -778,7 +778,11 @@ ts-mention.ts_tip:hover
   background: var(--background) !important;
 }
 
-.c-message_kit__thread_message {
+.p-threads_view__default_background,
+.p-threads_view__default_background--first,
+.c-message_kit__thread_message,
+.c-message_kit__message,
+.c-message_kit__hover {
   background: var(--background) !important; 
 }
 
