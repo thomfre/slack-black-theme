@@ -769,6 +769,15 @@ ts-mention.ts_tip:hover
   border-color: transparent;
 }
 
+/* All Threads */
+.c-virtual_list__scroll_container {
+  background: var(--background-light) !important;
+}
+
+.c-virtual_list__item {
+  background: var(--background) !important;
+}
+
 /* threads */
 ts-message .reply_bar:hover {
   background: var(--background) !important;
